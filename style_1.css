@@ -1,0 +1,220 @@
+body {
+    font-size: 10px;
+    font-family: Book Antiqua,"Courier New", Verdana;
+}
+h1 {
+    font-size: 4.5rem;
+}
+h2 {
+    font-size: 1.6rem;
+}
+h3,
+p {
+    font-size: 1.4rem;
+}
+a {
+    font-size: 1.3rem;
+}
+#header {
+    width: 1600px;
+    height: 990px;
+    padding: 250px 250px 0 250px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    background-image: url("img/background1.png");
+}
+#header h1,
+#header p {
+    width: 900px;
+    margin: 15px auto;
+}
+#header div {
+    width: 1000px;
+    height: 300px;
+    margin: 50px auto;
+    border: solid 1px white;
+}
+#header input {
+    width: 300px;
+    height: 50px;
+    margin-right: 25px;
+    border: solid 1px white;
+    font-size: 1.3rem;
+    color: white;
+    background-color: transparent;
+}
+#header button {
+    width: 100px;
+    height: 50px;
+    border: solid 1px white;
+    background-color: white;
+}
+#feature {
+    width: 1100px;
+    padding: 0 250px;
+    margin: 50px auto;
+    color: black;
+}
+#feature h1,
+#feature h2 {
+    text-align: center;
+}
+.flex-feature {
+    display: flex;
+}
+.feature-class {
+    overflow: hidden;
+    flex: 1 1 auto;
+    width: 450px;
+    margin: 20px 20px;
+}
+.feature-class img {
+    float: left;
+    width: 49px;
+    height: 48px;
+}
+.feature-class h3,
+.feature-class p {
+    margin-top: 0;
+    margin-left: 80px;
+}
+#call-to-action {
+    width: 1600px;
+    height: 800px;
+    padding: 100px 0 100px 150px;
+    box-sizing: border-box;
+    background-image: url("img/background2.png");
+}
+#call-to-action div {
+    float: left;
+    width: 700px;
+    color: white;
+}
+#call-to-action img {
+    float: right;
+}
+#call-to-action p {
+    margin-bottom: 50px;
+}
+#call-to-action a {
+    height: 100px;
+    padding: 25px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    border: solid 1px white;
+    font-size: 1.2rem;
+    background-color: transparent;
+}
+#call-to-action a:hover {
+    color: black;
+    background-color: white;
+}
+#feature2 {
+    width: 1100px;
+    padding: 0 250px 100px 250px;
+    border-bottom: solid 1px lightgrey;
+    text-align: center;
+}
+#feature2 div:nth-of-type(1) {
+    float: left;
+    width: 350px;
+}
+#feature2 div:nth-of-type(2) {
+    float: right;
+    width: 350px;
+}
+#feature2 div:nth-of-type(3) {
+    width: 350px;
+    margin: 0 375px;
+}
+#team {
+    width: 1100px;
+    padding: 50px 250px;
+    border-bottom: solid 1px lightgrey;
+    text-align: center;
+}
+#team img {
+    margin: 12px;
+}
+#feature3 {
+    width: 1100px;
+    padding: 100px 250px;
+    border-bottom: solid 1px lightgrey;
+}
+#feature3 div:nth-of-type(1){
+    overflow: hidden;
+    margin-bottom:50px;
+}
+#feature3 div:nth-of-type(2){
+    overflow: hidden;
+}
+#feature3 img:nth-of-type(1) {
+    float: left;
+    margin-right: 50px;
+}
+#feature3 div:nth-of-type(2) img {
+    float: right;
+    margin-right: 0;
+    margin-left: 50px;
+}
+#contact {
+    overflow: hidden;
+    width: 1100px;
+    padding: 0 250px 100px 250px;
+    margin-top: 40px;
+}
+#contact img {
+    float: left;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+#contact1 {
+    float: left;
+    width: 500px;
+    height: 650px;
+    margin-right: 100px;
+    border: solid 1px lightgrey;
+    text-align: center;
+}
+#contact1 input:nth-of-type(1),
+#contact1 input:nth-of-type(2) {
+    width: 400px;
+    height: 50px;
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+#contact1 input:nth-of-type(3) {
+    width: 400px;
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+}
+#contact1 button {
+    width: 400px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+#footer {
+    display: flex;
+    width: 1100px;
+    padding: 50px 250px;
+    background-color: black;
+}
+#footer h3 {
+    color: white;
+}
+#footer p,
+#footer a {
+    color: lightgrey;
+}
+#footer div {
+    width: 275px;
+    line-height: 1.5;
+}
+#footer img {
+    margin-right: 23px;
+}
